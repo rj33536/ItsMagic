@@ -1,0 +1,165 @@
+*{margin:0px; padding:0px;
+}
+*{
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+html {
+ scroll-behavior: smooth;
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,900");
+/* body{overflow: hidden;font-family: 'Raleway', sans-serif;} */
+.heading{
+  position:relative;
+}
+.gamebox{
+  margin-bottom: 2px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  padding: 10px;
+  margin-inline: 20px;
+  width: fit-content;
+}
+
+.balance{
+  margin-top: 4px;
+  border-radius: 38% 62% 34% 66% / 47% 24% 76% 53% ;
+  width: 30%;
+  text-align: center;
+  background-color: rgb(255, 219, 177);
+  height: 50px;
+}
+.balance h2{
+  color: rgb(58, 25, 12);
+}
+.content{position:relative;float:left;width:100%;overflow-y: hidden;}
+
+.fields {
+float:left;
+}
+body{
+  background: url("./assets/curtain.png");
+}
+.owned{
+  background-color: #ad7330;
+}
+.chosen{
+  background-color: #418f88;
+
+}
+#make-budget{
+  width: 100vw;
+ display: grid;
+ grid-template-columns: auto auto auto;
+ grid-gap: 1em;
+ text-align: center;
+ 
+}
+img{
+  height: 70vh;
+  width: 40vw;
+}
+.content{
+ display: grid;
+ grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  auto auto auto auto auto auto;
+ max-height:80vh ;
+ padding: 0 1em 0 0;
+ 
+ margin: 0 auto;
+
+}
+
+h3{
+  font-size: 35px;
+}
+.position-card{
+  margin: 10px 0px;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tricktb td,tr{
+ border: solid 2px black;
+ margin: 0 auto;
+ padding: 0.5em;
+
+
+}
+.tricktb{
+ width: 100%;
+ 
+
+}
+.nav-pills > li {
+text-align: center;
+margin: 0px auto;
+display:inline-flex !important;
+float:none !important;
+}
+
+#set-tricks{
+ width: 100vw;
+
+}
+
+#set-routine{
+ width:100vw;
+ display: grid;
+ grid-template-columns: auto auto auto;
+
+ 
+}
+small{
+  font-size: 20px;
+  color: rgb(59, 33, 25);
+  font-weight: 900;
+}
+
+.btn-primary, .btn-primary:hover{
+  color: #fff;
+  border-color: #e9e5b8;
+  background-color: #2a201b;
+  border-radius: 70%;
+  font-size: 20px;
+}
+a{
+  font-weight: 600 !important;
+  color: white;
+  font-size: 30px;
+  text-decoration: none !important;
+}
+.rmamt{
+  color: rgb(2, 27, 1);
+  font-weight: 800;
+  text-align: center;
+  font-size: 40px;
+}
+#set-routine button{
+  margin: 10px;
+}
+.progress{
+  height: 100%;
+  padding: 10px;
+ 
+}
+#show-time{
+  margin: 40px;
+  text-align: center;
+  padding: 100px;
+  width: 500px;
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+.buy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
